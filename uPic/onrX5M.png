@@ -1,0 +1,2139 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-5Bs4ERl99/u2AUfpOZF2F0cdfNby7+Vd9teUshXUBPo5CjwECR7IAEf+weI/eCk5tF7K1h3O8hd8k0+P/HePeg==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-e41b3811197df7fbb60147e939917617.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-21eX2YaEYIYa91WFh0mXaxJ3wLQxy2ldlpRbyuCueK3MvqHGEzmXYPkMQ4XBtASauZXKlL1hPxQQU9g28R03wQ==" rel="stylesheet" href="https://github.githubassets.com/assets/site-db5797d9868460861af755858749976b.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-vna9AxrJa9t+A93H0lxAPca1mXWQB5A/jIBppkp+Ys/EV2l+rsMcCyU/Fj4BpmEZ3nY4hHwJ/FqUEeMFXiYl0w==" rel="stylesheet" href="https://github.githubassets.com/assets/github-be76bd031ac96bdb7e03ddc7d25c403d.css" />
+    
+    
+    
+    
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - migraine-sudo/AFL-JS: american fuzzy lop - a security-oriented fuzzer</title>
+    <meta name="description" content="american fuzzy lop - a security-oriented fuzzer. Contribute to migraine-sudo/AFL-JS development by creating an account on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta name="twitter:image:src" content="https://avatars2.githubusercontent.com/u/46891747?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="migraine-sudo/AFL-JS" /><meta name="twitter:description" content="american fuzzy lop - a security-oriented fuzzer. Contribute to migraine-sudo/AFL-JS development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/46891747?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="migraine-sudo/AFL-JS" /><meta property="og:url" content="https://github.com/migraine-sudo/AFL-JS" /><meta property="og:description" content="american fuzzy lop - a security-oriented fuzzer. Contribute to migraine-sudo/AFL-JS development by creating an account on GitHub." />
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+  
+
+  <meta name="request-id" content="8EF4:2C8B:369831:5E2227:5E72F47C" data-pjax-transient="true"/><meta name="html-safe-nonce" content="0e44a0c682a77f440570a9b869d8d58448094446" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI4RUY0OjJDOEI6MzY5ODMxOjVFMjIyNzo1RTcyRjQ3QyIsInZpc2l0b3JfaWQiOiIyNDgxMzQ0NTg3MjE2MTY5MzE2IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="a50bcb3e3a14ff5c4b3e34348208e63e500aa9a1fcb2b4d1c63476e40d1a9c35" data-pjax-transient="true"/>
+
+
+
+  <meta name="github-keyboard-shortcuts" content="repository" data-pjax-transient="true" />
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+
+
+    <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,RELATED_ISSUES">
+
+  <meta http-equiv="x-pjax-version" content="130055028b127a2c25ba56a7ab9b9168">
+  
+
+      <link href="https://github.com/migraine-sudo/AFL-JS/commits/master.atom" rel="alternate" title="Recent Commits to AFL-JS:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/migraine-sudo/AFL-JS git https://github.com/migraine-sudo/AFL-JS.git">
+
+  <meta name="octolytics-dimension-user_id" content="46891747" /><meta name="octolytics-dimension-user_login" content="migraine-sudo" /><meta name="octolytics-dimension-repository_id" content="248279293" /><meta name="octolytics-dimension-repository_nwo" content="migraine-sudo/AFL-JS" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="true" /><meta name="octolytics-dimension-repository_parent_id" content="198869255" /><meta name="octolytics-dimension-repository_parent_nwo" content="google/AFL" /><meta name="octolytics-dimension-repository_network_root_id" content="198869255" /><meta name="octolytics-dimension-repository_network_root_nwo" content="google/AFL" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/migraine-sudo/AFL-JS" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production min-width-lg">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+      <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+
+    
+    
+
+
+
+        <header class="Header-old header-logged-out  position-relative f4 py-2" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out d-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-none">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0" aria-label="Global">
+          <ul class="d-flex list-style-none">
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0  p-4 left-n4 position-absolute">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a></li>
+                          <li class="edge-item-fix"><a href="/features/packages" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Packages">Packages</a></li>
+                      <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security">Security</a></li>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class=" mr-3 mr-lg-3">
+                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0  p-4 left-n4 position-absolute">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class=" mr-3 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0  p-4 left-n4 position-absolute">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0  border-top pt-3">
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex flex-items-center px-0 text-center text-left">
+          <div class="d-lg-flex ">
+            <div class="header-search mr-3 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="248279293" data-scoped-search-url="/migraine-sudo/AFL-JS/search" data-unscoped-search-url="/search" action="/migraine-sudo/AFL-JS/search" accept-charset="UTF-8" method="get">
+      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="h4QH3h2K3EQ9cLKbDJDk+D5CJar6VB5b9fhoMfojHyB+mfI2ILlJUBp/jVYEglqjPnZYuVbLcb9frITW2mLpWg==" />
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a href="/login?return_to=%2Fmigraine-sudo%2FAFL-JS"
+          class="HeaderMenu-link no-underline mr-3"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c661d03346191d810532121467484cc908604ff7b246ddd380568c21be2e487f"
+          data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+          Sign&nbsp;in
+        </a>
+          <a href="/join?source_repo=migraine-sudo%2FAFL-JS"
+            class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c661d03346191d810532121467484cc908604ff7b246ddd380568c21be2e487f"
+            data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+            Sign&nbsp;up
+          </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+    <div id="js-flash-container">
+
+</div>
+
+
+      
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled>
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main id="js-repo-pjax-container" data-pjax-container >
+      
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <div class="pagehead repohead hx_repohead readability-menu bg-gray-light pb-0 pt-3">
+
+    <div class="d-flex container-lg mb-4 px-3">
+
+      <div class="flex-auto min-width-0 width-fit mr-3">
+        <h1 class="public  d-flex flex-wrap flex-items-center break-word float-none ">
+    <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+  <span class="author ml-1 flex-self-stretch" itemprop="author">
+    <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/migraine-sudo/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/migraine-sudo">migraine-sudo</a>
+  </span>
+  <span class="path-divider flex-self-stretch">/</span>
+  <strong itemprop="name" class="mr-2 flex-self-stretch">
+    <a data-pjax="#js-repo-pjax-container" href="/migraine-sudo/AFL-JS">AFL-JS</a>
+  </strong>
+  
+</h1>
+
+  <span class="fork-flag mt-1" data-repository-hovercards-enabled>
+    <span class="text">forked from <a data-hovercard-type="repository" data-hovercard-url="/google/AFL/hovercard" href="/google/AFL">google/AFL</a></span>
+  </span>
+
+      </div>
+
+      <ul class="pagehead-actions flex-shrink-0 " >
+
+
+
+
+  <li>
+    
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a13e60ea9f4930af7fe21849a6803ababeb4984dff5f5bef6b112befbd023b20" href="/login?return_to=%2Fmigraine-sudo%2FAFL-JS">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+</a>    <a class="social-count" href="/migraine-sudo/AFL-JS/watchers"
+       aria-label="0 users are watching this repository">
+      0
+    </a>
+
+  </li>
+
+  <li>
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:248279293,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fabaf27c062068c5bfbff7c9a773ab467170dea2a68ce7912c748e7171dd77b4" href="/login?return_to=%2Fmigraine-sudo%2FAFL-JS">
+      <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+
+      Star
+</a>
+    <a class="social-count js-social-count" href="/migraine-sudo/AFL-JS/stargazers"
+      aria-label="0 users starred this repository">
+      0
+    </a>
+
+  </li>
+
+  <li>
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:248279293,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ef2d03797a1fbc14a3ceefddaa50d87530b3726a08b51bf26327f98861809818" href="/login?return_to=%2Fmigraine-sudo%2FAFL-JS">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+</a>
+    <a href="/migraine-sudo/AFL-JS/network/members" class="social-count"
+       aria-label="124 users forked this repository">
+      124
+    </a>
+  </li>
+</ul>
+
+    </div>
+      
+<nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax clearfix container-lg px-3"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+    aria-label="Repository"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /migraine-sudo/AFL-JS" href="/migraine-sudo/AFL-JS">
+      <div class="d-inline"><svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg></div>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" data-skip-pjax="true" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /migraine-sudo/AFL-JS/pulls" href="/migraine-sudo/AFL-JS/pulls">
+      <div class="d-inline"><svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg></div>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="4">
+</a>  </span>
+
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="position-relative float-left">
+      <a data-hotkey="g w" data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /migraine-sudo/AFL-JS/actions" href="/migraine-sudo/AFL-JS/actions">
+        <div class="d-inline"><svg class="octicon octicon-play" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 8A7 7 0 110 8a7 7 0 0114 0zm-8.223 3.482l4.599-3.066a.5.5 0 000-.832L5.777 4.518A.5.5 0 005 4.934v6.132a.5.5 0 00.777.416z"/></svg></div>
+        Actions
+</a>
+    </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /migraine-sudo/AFL-JS/projects" href="/migraine-sudo/AFL-JS/projects">
+      <div class="d-inline"><svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg></div>
+      Projects
+      <span class="Counter">0</span>
+</a>
+
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy token_scanning code_scanning /migraine-sudo/AFL-JS/security/advisories" href="/migraine-sudo/AFL-JS/security/advisories">
+      <div class="d-inline"><svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"/></svg></div>
+      Security
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people /migraine-sudo/AFL-JS/pulse" href="/migraine-sudo/AFL-JS/pulse">
+      <div class="d-inline"><svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg></div>
+      Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+
+<div class="container-lg clearfix new-discussion-timeline  px-3">
+  <div class="repository-content ">
+
+    
+    
+    <div class="signup-prompt-bg rounded-1 js-signup-prompt" data-prompt="signup" hidden>
+    <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+      <div class="position-relative">
+        <button type="button" class="position-absolute top-0 right-0 btn-link link-gray js-signup-prompt-button" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+          Dismiss
+        </button>
+        <h3 class="pt-2">Join GitHub today</h3>
+        <p class="col-6 mx-auto">GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.</p>
+        <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c02fad867e7a8ff67a2b9d45db5f800c3cf43e4565d6cfcacc91a61ae5f7aae0" href="/join?source=prompt-code&amp;source_repo=migraine-sudo%2FAFL-JS">Sign up</a>
+      </div>
+    </div>
+  </div>
+
+
+      <div class="mb-3">  <div class="f4">
+        <span class="text-gray-dark mr-2" itemprop="about">
+          american fuzzy lop - a security-oriented fuzzer
+        </span>
+        <span itemprop="url"><a rel="nofollow" href="http://lcamtuf.coredump.cx/afl/">http://lcamtuf.coredump.cx/afl/</a></span>
+  </div>
+</div>
+
+
+
+
+    <div class="overall-summary border-bottom-0 mb-0 rounded-bottom-0">
+  <ul class="numbers-summary">
+    <li class="commits">
+      <a data-pjax href="/migraine-sudo/AFL-JS/commits/master">
+          <svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"/></svg>
+          <span class="num text-emphasized">
+            36
+          </span>
+          commits
+      </a>
+    </li>
+    <li>
+      <a data-pjax href="/migraine-sudo/AFL-JS/branches">
+        <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 00-1-3.72C.88 1 0 1.89 0 3a2 2 0 001 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        <span class="num text-emphasized">
+          5
+        </span>
+        branches
+      </a>
+    </li>
+
+      <li>
+        <a data-pjax href="/migraine-sudo/AFL-JS/packages" data-ga-click="Repository, packages click, location:repo overview">
+          <svg class="octicon octicon-package" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1 4.27v7.47c0 .45.3.84.75.97l6.5 1.73c.16.05.34.05.5 0l6.5-1.73c.45-.13.75-.52.75-.97V4.27c0-.45-.3-.84-.75-.97l-6.5-1.74a1.4 1.4 0 00-.5 0L1.75 3.3c-.45.13-.75.52-.75.97zm7 9.09l-6-1.59V5l6 1.61v6.75zM2 4l2.5-.67L11 5.06l-2.5.67L2 4zm13 7.77l-6 1.59V6.61l2-.55V8.5l2-.53V5.53L15 5v6.77zm-2-7.24L6.5 2.8l2-.53L15 4l-2 .53z"/></svg>
+          <span class="num text-emphasized">
+            0
+          </span>
+          packages
+        </a>
+
+      </li>
+
+    <li>
+      <a href="/migraine-sudo/AFL-JS/releases">
+        <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 000-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+        <span class="num text-emphasized">
+          3
+        </span>
+        releases
+      </a>
+    </li>
+
+
+      <li >
+          <include-fragment src="/migraine-sudo/AFL-JS/contributors_size">
+            <a href="/migraine-sudo/AFL-JS/graphs/contributors">
+              <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"/></svg>
+              <span class="num text-emphasized"></span>
+              Fetching contributors
+            </a>
+</include-fragment>      </li>
+
+      <li>
+        <a href="/migraine-sudo/AFL-JS/blob/master/LICENSE">
+          <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+            Apache-2.0
+        </a>
+      </li>
+  </ul>
+</div>
+
+    <details class="details-reset">
+      <summary title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+        <div class="d-flex repository-lang-stats-graph">
+            <span class="language-color" aria-label="C 84.1%" style="width:84.1%; background-color:#555555;" itemprop="keywords">C</span>
+            <span class="language-color" aria-label="Shell 8.0%" style="width:8.0%; background-color:#89e051;" itemprop="keywords">Shell</span>
+            <span class="language-color" aria-label="C++ 4.3%" style="width:4.3%; background-color:#f34b7d;" itemprop="keywords">C++</span>
+            <span class="language-color" aria-label="Makefile 2.9%" style="width:2.9%; background-color:#427819;" itemprop="keywords">Makefile</span>
+            <span class="language-color" aria-label="HTML 0.7%" style="width:0.7%; background-color:#e34c26;" itemprop="keywords">HTML</span>
+            <span class="language-color" aria-label="Rich Text Format 0.0%" style="width:0.0%; background-color:#ccc;" itemprop="keywords">Rich Text Format</span>
+        </div>
+      </summary>
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/migraine-sudo/AFL-JS/search?l=c"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#555555;"></span>
+                <span class="lang">C</span>
+                <span class="percent">84.1%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/migraine-sudo/AFL-JS/search?l=shell"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#89e051;"></span>
+                <span class="lang">Shell</span>
+                <span class="percent">8.0%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/migraine-sudo/AFL-JS/search?l=c%2B%2B"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#f34b7d;"></span>
+                <span class="lang">C++</span>
+                <span class="percent">4.3%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/migraine-sudo/AFL-JS/search?l=makefile"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#427819;"></span>
+                <span class="lang">Makefile</span>
+                <span class="percent">2.9%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/migraine-sudo/AFL-JS/search?l=html"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#e34c26;"></span>
+                <span class="lang">HTML</span>
+                <span class="percent">0.7%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/migraine-sudo/AFL-JS/search?l=rich-text-format"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#ccc;"></span>
+                <span class="lang">Rich Text Format</span>
+                <span class="percent">0.0%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </details>
+
+
+
+
+
+
+<div class="file-navigation in-mid-page d-flex flex-items-start">
+  
+<details class="details-reset details-overlay branch-select-menu " id="branch-select-menu">
+  <summary class="btn btn-sm css-truncate"
+           data-hotkey="w"
+           title="Switch branches or tags">
+    <i>Branch:</i>
+    <span class="css-truncate-target" data-menu-button>master</span>
+    <span class="dropdown-caret"></span>
+  </summary>
+
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/migraine-sudo/AFL-JS/refs/master?source_action=disambiguate&amp;source_controller=files" preload>
+    <div class="SelectMenu-modal">
+      <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
+        <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
+      </include-fragment>
+    </div>
+  </details-menu>
+</details>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb flex-auto">
+    
+  </div>
+
+    <div class="BtnGroup">
+
+      <a class="btn btn-sm empty-icon float-right BtnGroup-item" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:248279293,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6203ade1a2dc1aa16272b092253a02b9ce23cd847f802e38d172ec172b11aafc" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/migraine-sudo/AFL-JS/find/master">Find file</a>
+    </div>
+
+  
+
+
+    <span class="d-flex">
+      
+
+        <details class="get-repo-select-menu js-get-repo-select-menu js-anon-get-repo-select-menu position-relative details-overlay details-reset">
+  <summary class="btn btn-sm ml-2 btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;repository_id&quot;:248279293,&quot;target&quot;:&quot;CLONE_OR_DOWNLOAD_BUTTON&quot;,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d74ba663deb3b8cbe767168826c6faf4203cfb4c7e31607b11634a32d865f742">
+      Clone or download
+    <span class="dropdown-caret"></span>
+</summary>  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm" data-autoselect value="https://github.com/migraine-sudo/AFL-JS.git" aria-label="Clone this repository at https://github.com/migraine-sudo/AFL-JS.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy value="https://github.com/migraine-sudo/AFL-JS.git" aria-label="Copy to clipboard" class="btn btn-sm" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;COPY_URL&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:248279293,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ac1f9e34508d9fc55ef5471c145a283109ed9af9a2ba2a27663eba56d9a65fe8"><svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg></clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2 d-flex">
+          <a class="btn btn-outline get-repo-btn tooltipped tooltipped-s tooltipped-multiline js-remove-unless-platform js-get-repo" aria-label="Clone migraine-sudo/AFL-JS to your computer and use it in GitHub Desktop." data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;OPEN_IN_DESKTOP&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:248279293,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="740b253b43c45c15c7415aaac252f453e2bee4338e2ded18643e6efac2760f5d" data-platforms="windows,mac" href="https://desktop.github.com">Open in Desktop</a>
+
+<a class="flex-1 btn btn-outline get-repo-btn js-anon-download-zip-link" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;DOWNLOAD_ZIP&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:248279293,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b41358fcc23b6740175d14309233a2e1a6d6a21f1bda14970da8a0c7497eed33" data-ga-click="Repository, download zip, location:repo overview" href="/migraine-sudo/AFL-JS/archive/master.zip">Download ZIP</a>
+
+        </div>
+      </div>
+
+        <div class="js-modal-downloading" hidden>
+          <div class="py-2 px-3">
+            <h4 class="lh-condensed mb-3">Downloading<span class="AnimatedEllipsis"></span></h4>
+            <p class="text-gray">
+              Want to be notified of new releases in
+              <span class="text-bold">migraine-sudo/AFL-JS</span>?
+            </p>
+          </div>
+          <div class="width-full d-flex">
+            <a rel="nofollow" class="get-repo-btn btn btn-outline" style="width: 50%" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;download popover&quot;,&quot;repository_id&quot;:248279293,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1f2af7fcda88b9e29afe076ce1b1dd66012de6d3e91d985303a1bed73672fb4e" href="/login?return_to=https%3A%2F%2Fgithub.com%2Fmigraine-sudo%2FAFL-JS">Sign in</a>
+            <a rel="nofollow" class="get-repo-btn btn btn-primary" style="width: 50%" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;download popover&quot;,&quot;repository_id&quot;:248279293,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7b4dc5fe999548b2e5d4cdfa4563ce63dbb5662ea81092c19985d8e8856e5995" href="/join?branch=master&amp;source=download&amp;source_repo=migraine-sudo%2FAFL-JS">Sign up</a>
+          </div>
+        </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="AnimatedEllipsis"></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="AnimatedEllipsis"></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="AnimatedEllipsis"></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="AnimatedEllipsis"></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+    </span>
+
+</div>
+
+
+
+  <div class="branch-infobar">
+    <span class="float-right">
+        <a class="muted-link" href="/migraine-sudo/AFL-JS/pull/new/master">
+          <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          Pull request
+        </a>
+      <a class="muted-link" href="/migraine-sudo/AFL-JS/compare">
+        <svg class="octicon octicon-diff" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 7h2v1H6v2H5V8H3V7h2V5h1v2zm-3 6h5v-1H3v1zM7.5 2L11 5.5V15c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h6.5zM10 6L7 3H1v12h9V6zM8.5 0H3v1h5l4 4v8h1V4.5L8.5 0z"/></svg>
+        Compare
+      </a>
+    </span>
+
+      This branch is even with google:master.
+  </div>
+<div class="Box mb-3 Box--condensed">
+  <div class="Box-header Box-header--blue position-relative "
+    style="margin-bottom:-1px;">
+    <h2 class="sr-only">Latest commit</h2>
+    <div class="commit-tease js-details-container Details d-flex rounded-top-1 flex-auto" data-issue-and-pr-hovercards-enabled>
+        <include-fragment src="/migraine-sudo/AFL-JS/tree-commit/f10d601b3f3026461c669251696e6f1328ce6c00" class="commit-loader">
+          <div class="blank loader-loading">
+            <img alt="" class="loader" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+            Fetching latest commit…
+          </div>
+          <div class="loader-error">
+            Cannot retrieve the latest commit at this time.
+          </div>
+</include-fragment>    </div>
+  </div>
+  <h2 id="files"  class="sr-only">Files</h2>
+  
+
+
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/migraine-sudo/AFL-JS/tree/f10d601b3f3026461c669251696e6f1328ce6c00">Permalink</a>
+
+    <table class="files js-navigation-container js-active-navigation-container " data-pjax>
+      <thead>
+        <tr>
+          <th><span class="sr-only">Type</span></th>
+          <th><span class="sr-only">Name</span></th>
+          <th><span class="sr-only">Latest commit message</span></th>
+          <th><span class="sr-only">Commit time</span></th>
+        </tr>
+      </thead>
+
+
+      <tbody>
+        <tr class="warning include-fragment-error">
+          <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg></td>
+          <td class="content" colspan="3">Failed to load latest commit information.</td>
+        </tr>
+
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title=".travis" id="772839f7e87e4ac33eb4bed22ec2f68f-98f97dc110637dcb0bd1405f22dfb91e2254f32a" href="/migraine-sudo/AFL-JS/tree/master/.travis">.travis</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Add test that parses fuzzer_stats (#17)
+
+PR #15 added new statistics outputed to the out/fuzzer_stats file. Add tests for it.
+
+- create a .travis/ directory in which we can put helper scripts for travis
+- create .travis/check_fuzzer_stats.sh to parse out/fuzzer_stats and check for expected key:value pairs.
+- run several jobs to test for different environment variables ( AFL_EXIT_WHEN_DONE, AFL_BENCH_JUST_ONE, AFL_BENCH_UNTIL_CRASH, and manual stopping)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/331bc9b035097688771923282b6c30afda35f14f">Add test that parses fuzzer_stats (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="486888038" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/17" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/17/hovercard" href="https://github.com/google/AFL/pull/17">google#17</a><a data-pjax="true" title="Add test that parses fuzzer_stats (#17)
+
+PR #15 added new statistics outputed to the out/fuzzer_stats file. Add tests for it.
+
+- create a .travis/ directory in which we can put helper scripts for travis
+- create .travis/check_fuzzer_stats.sh to parse out/fuzzer_stats and check for expected key:value pairs.
+- run several jobs to test for different environment variables ( AFL_EXIT_WHEN_DONE, AFL_BENCH_JUST_ONE, AFL_BENCH_UNTIL_CRASH, and manual stopping)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/331bc9b035097688771923282b6c30afda35f14f">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-02T13:03:08Z" class="no-wrap">Sep 2, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="dictionaries" id="4212cc76262c7f250baff542b6b8fdd7-6630d9c773232b81c58f8f60237cf9373da0f076" href="/migraine-sudo/AFL-JS/tree/master/dictionaries">dictionaries</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Update regexp.dict (#74)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/2fc3c4b82bc569f71747a66f355cbc9ee189177f">Update regexp.dict (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="568496770" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/74" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/74/hovercard" href="https://github.com/google/AFL/pull/74">google#74</a><a data-pjax="true" title="Update regexp.dict (#74)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/2fc3c4b82bc569f71747a66f355cbc9ee189177f">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-02-20T19:08:14Z" class="no-wrap">Feb 20, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="docs" id="e3e2a9bfd88566b05001b02a3f51d286-9317d0e14090e776887e2c330f5789cadf664167" href="/migraine-sudo/AFL-JS/tree/master/docs">docs</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Update ChangeLog to include v2.55b and v2.56b release notes. (#36)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/8da80951dd7eeeb3e3b5a3bcd36c485045f40274">Update ChangeLog to include v2.55b and v2.56b release notes. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="498931598" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/36" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/36/hovercard" href="https://github.com/google/AFL/pull/36">google#36</a><a data-pjax="true" title="Update ChangeLog to include v2.55b and v2.56b release notes. (#36)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/8da80951dd7eeeb3e3b5a3bcd36c485045f40274">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-26T14:42:43Z" class="no-wrap">Sep 26, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="experimental" id="ac15dd302601bdac753596694ac78093-8f9afcbcc618e0f05e2327cc0c46d9258077173e" href="/migraine-sudo/AFL-JS/tree/master/experimental">experimental</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="libdislocator" id="6a64deed528cf89abd11239698b72a41-d63a4315ed0dca048f513f350e848711c25ce755" href="/migraine-sudo/AFL-JS/tree/master/libdislocator">libdislocator</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="libtokencap" id="7899110fb6fc2cad3920295f3241ba6e-5f807c6989295407e6712e2da6272ee976442426" href="/migraine-sudo/AFL-JS/tree/master/libtokencap">libtokencap</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="llvm_mode" id="37a7937bba9a52585e452cce094fdb80-238ca1d473fe6618192d79eb23d16859a53fd254" href="/migraine-sudo/AFL-JS/tree/master/llvm_mode">llvm_mode</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Revert "afl-clang-fast: default AFL_PATH (#66)" (#67)
+
+This reverts commit 36fc97acc043ae99bc1e9c4ec5b1b405ee37e039.' class="link-gray" href="/migraine-sudo/AFL-JS/commit/db6a24086f8355cd08170fa73a40e9161f4dc55b">Revert "afl-clang-fast: default AFL_PATH (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="545568476" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/66" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/66/hovercard" href="https://github.com/google/AFL/pull/66">google#66</a><a data-pjax="true" title='Revert "afl-clang-fast: default AFL_PATH (#66)" (#67)
+
+This reverts commit 36fc97acc043ae99bc1e9c4ec5b1b405ee37e039.' class="link-gray" href="/migraine-sudo/AFL-JS/commit/db6a24086f8355cd08170fa73a40e9161f4dc55b">)" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="546342343" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/67" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/67/hovercard" href="https://github.com/google/AFL/pull/67">google#67</a><a data-pjax="true" title='Revert "afl-clang-fast: default AFL_PATH (#66)" (#67)
+
+This reverts commit 36fc97acc043ae99bc1e9c4ec5b1b405ee37e039.' class="link-gray" href="/migraine-sudo/AFL-JS/commit/db6a24086f8355cd08170fa73a40e9161f4dc55b">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-01-07T15:39:40Z" class="no-wrap">Jan 7, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="qemu_mode" id="3caf4160e7bf11e88706bd94156e700a-3c6908c1df565012c74b0ec8c37f4ba24c3741f5" href="/migraine-sudo/AFL-JS/tree/master/qemu_mode">qemu_mode</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Make Makefile tests handle optimization more gracefully. (#33) (#30)
+
+Make tests using ./test-instr use paths that are less likely to be optimized out." class="link-gray" href="/migraine-sudo/AFL-JS/commit/1f414d53535ea470bba3858bc1324081baf22c75">Make Makefile tests handle optimization more gracefully. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="494885973" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/33" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/33/hovercard" href="https://github.com/google/AFL/pull/33">google#33</a><a data-pjax="true" title="Make Makefile tests handle optimization more gracefully. (#33) (#30)
+
+Make tests using ./test-instr use paths that are less likely to be optimized out." class="link-gray" href="/migraine-sudo/AFL-JS/commit/1f414d53535ea470bba3858bc1324081baf22c75">) (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492304111" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/30" data-hovercard-type="issue" data-hovercard-url="/google/AFL/issues/30/hovercard" href="https://github.com/google/AFL/issues/30">g…</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-17T23:02:02Z" class="no-wrap">Sep 17, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="testcases" id="32f1f7600cb75aee189865716036931a-19494bb4dfd1c5bc3f431f142e3ee20148bde4e9" href="/migraine-sudo/AFL-JS/tree/master/testcases">testcases</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Initial commit." class="link-gray" href="/migraine-sudo/AFL-JS/commit/debe27037b9444bbf090a0ffbd5d24889bb887ae">Initial commit.</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-07-25T16:57:01Z" class="no-wrap">Jul 25, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-57df30e0d69e03654eaaf8a57087442fb0022558" href="/migraine-sudo/AFL-JS/blob/master/.gitignore">.gitignore</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Added files generated from llvm_mode to gitignore (#38)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/5a702b873c8160569145ac33df0b0cebab4e058d">Added files generated from llvm_mode to gitignore (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="503036819" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/38" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/38/hovercard" href="https://github.com/google/AFL/pull/38">google#38</a><a data-pjax="true" title="Added files generated from llvm_mode to gitignore (#38)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/5a702b873c8160569145ac33df0b0cebab4e058d">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-10-06T16:31:27Z" class="no-wrap">Oct 6, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-a93b729c8d19e2c372419bac81ec9548313603e1" href="/migraine-sudo/AFL-JS/blob/master/.travis.yml">.travis.yml</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Add tests for trace-pc-guard instrumentation (#26)
+
+Also fix copied test and remove trailing whitespace." class="link-gray" href="/migraine-sudo/AFL-JS/commit/3eaaa738d396d64ec4474a70dff2a3aef8cf2642">Add tests for trace-pc-guard instrumentation (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="490572609" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/26" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/26/hovercard" href="https://github.com/google/AFL/pull/26">google#26</a><a data-pjax="true" title="Add tests for trace-pc-guard instrumentation (#26)
+
+Also fix copied test and remove trailing whitespace." class="link-gray" href="/migraine-sudo/AFL-JS/commit/3eaaa738d396d64ec4474a70dff2a3aef8cf2642">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-10T01:51:23Z" class="no-wrap">Sep 10, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="Android.bp" id="bd9ea3d04734ff6cec115b06514e02fa-9fdf6f0440e94ad701877ca99100ba42bb9f4409" href="/migraine-sudo/AFL-JS/blob/master/Android.bp">Android.bp</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Add Android.bp for Android in tree build (#59)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/077d73f7fc12b8b64e71befdb81744056640eaf1">Add Android.bp for Android in tree build (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="536868813" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/59" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/59/hovercard" href="https://github.com/google/AFL/pull/59">google#59</a><a data-pjax="true" title="Add Android.bp for Android in tree build (#59)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/077d73f7fc12b8b64e71befdb81744056640eaf1">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-12-20T17:05:00Z" class="no-wrap">Dec 20, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-939e5341e74dc2371c8b47f0e27b50581bed5f63" href="/migraine-sudo/AFL-JS/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Initial commit." class="link-gray" href="/migraine-sudo/AFL-JS/commit/debe27037b9444bbf090a0ffbd5d24889bb887ae">Initial commit.</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-07-25T16:57:01Z" class="no-wrap">Jul 25, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="LICENSE" id="9879d6db96fd29134fc802214163b95a-d645695673349e3947e8e5ae42332d0ac3164cd7" itemprop="license" href="/migraine-sudo/AFL-JS/blob/master/LICENSE">LICENSE</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Initial commit." class="link-gray" href="/migraine-sudo/AFL-JS/commit/debe27037b9444bbf090a0ffbd5d24889bb887ae">Initial commit.</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-07-25T16:57:01Z" class="no-wrap">Jul 25, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="Makefile" id="b67911656ef5d18c4ae36cb6741b7965-5e800db2627e7008f4dfcd4c4937c8f29692afca" href="/migraine-sudo/AFL-JS/blob/master/Makefile">Makefile</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Make Makefile tests handle optimization more gracefully. (#33) (#30)
+
+Make tests using ./test-instr use paths that are less likely to be optimized out." class="link-gray" href="/migraine-sudo/AFL-JS/commit/1f414d53535ea470bba3858bc1324081baf22c75">Make Makefile tests handle optimization more gracefully. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="494885973" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/33" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/33/hovercard" href="https://github.com/google/AFL/pull/33">google#33</a><a data-pjax="true" title="Make Makefile tests handle optimization more gracefully. (#33) (#30)
+
+Make tests using ./test-instr use paths that are less likely to be optimized out." class="link-gray" href="/migraine-sudo/AFL-JS/commit/1f414d53535ea470bba3858bc1324081baf22c75">) (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492304111" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/30" data-hovercard-type="issue" data-hovercard-url="/google/AFL/issues/30/hovercard" href="https://github.com/google/AFL/issues/30">g…</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-17T23:02:02Z" class="no-wrap">Sep 17, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-49960b99d65fc3935bc89dabc99005deca267dcd" href="/migraine-sudo/AFL-JS/blob/master/README.md">README.md</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="README.md typo (#70)
+
+conductive =&gt; conducive" class="link-gray" href="/migraine-sudo/AFL-JS/commit/29a7a4f442ced3578d9cef27479798d94e3984e5">README.md typo (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="555390410" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/70" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/70/hovercard" href="https://github.com/google/AFL/pull/70">google#70</a><a data-pjax="true" title="README.md typo (#70)
+
+conductive =&gt; conducive" class="link-gray" href="/migraine-sudo/AFL-JS/commit/29a7a4f442ced3578d9cef27479798d94e3984e5">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-01-27T14:40:07Z" class="no-wrap">Jan 27, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="afl-analyze.c" id="dddc657e2a16643ce427d9b843307a6b-2ef730384cb9ae4eb96dad5d58e964ce418ca865" href="/migraine-sudo/AFL-JS/blob/master/afl-analyze.c">afl-analyze.c</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Fix shmat() return value checking. (#76)
+
+* fix a little mistake
+
+http://man7.org/linux/man-pages/man3/shmat.3p.html
+
+if `shmat` fail, it will return -1.
+&gt;        On success, a valid shared memory identifier is returned.  On error,
+       -1 is returned, and errno is set to indicate the error.
+
+* if shmat() is error, it will return -1.
+So I modify all error condition." class="link-gray" href="/migraine-sudo/AFL-JS/commit/f10d601b3f3026461c669251696e6f1328ce6c00">Fix shmat() return value checking. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="571459273" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/76" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/76/hovercard" href="https://github.com/google/AFL/pull/76">google#76</a><a data-pjax="true" title="Fix shmat() return value checking. (#76)
+
+* fix a little mistake
+
+http://man7.org/linux/man-pages/man3/shmat.3p.html
+
+if `shmat` fail, it will return -1.
+&gt;        On success, a valid shared memory identifier is returned.  On error,
+       -1 is returned, and errno is set to indicate the error.
+
+* if shmat() is error, it will return -1.
+So I modify all error condition." class="link-gray" href="/migraine-sudo/AFL-JS/commit/f10d601b3f3026461c669251696e6f1328ce6c00">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-03-05T16:09:41Z" class="no-wrap">Mar 5, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="afl-as.c" id="889988d16d190c773b1e03627c9d210d-ea018ee052e97eb295df827d48d5b93468b89eb2" href="/migraine-sudo/AFL-JS/blob/master/afl-as.c">afl-as.c</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Add Android Support (#46)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/e75894a889fe854c02b9435186bd1e2927d6d490">Add Android Support (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="515893141" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/46" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/46/hovercard" href="https://github.com/google/AFL/pull/46">google#46</a><a data-pjax="true" title="Add Android Support (#46)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/e75894a889fe854c02b9435186bd1e2927d6d490">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-11-11T15:30:00Z" class="no-wrap">Nov 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="afl-as.h" id="7a9b01aede50e72eed3cac89f970f729-276b8a4d2bde95aa5ec01a102471ef40139dd56f" href="/migraine-sudo/AFL-JS/blob/master/afl-as.h">afl-as.h</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="afl-cmin" id="8095e0ebdec2b3393137cb72178e2227-e89b895ccb78758e2c4d84cbce7d1df60aa6246e" href="/migraine-sudo/AFL-JS/blob/master/afl-cmin">afl-cmin</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="afl-fuzz.c" id="7055551313949db06ed69a1c16797a15-029afe93e839a62be371ff05aef722c0099e9f69" href="/migraine-sudo/AFL-JS/blob/master/afl-fuzz.c">afl-fuzz.c</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Fix shmat() return value checking. (#76)
+
+* fix a little mistake
+
+http://man7.org/linux/man-pages/man3/shmat.3p.html
+
+if `shmat` fail, it will return -1.
+&gt;        On success, a valid shared memory identifier is returned.  On error,
+       -1 is returned, and errno is set to indicate the error.
+
+* if shmat() is error, it will return -1.
+So I modify all error condition." class="link-gray" href="/migraine-sudo/AFL-JS/commit/f10d601b3f3026461c669251696e6f1328ce6c00">Fix shmat() return value checking. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="571459273" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/76" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/76/hovercard" href="https://github.com/google/AFL/pull/76">google#76</a><a data-pjax="true" title="Fix shmat() return value checking. (#76)
+
+* fix a little mistake
+
+http://man7.org/linux/man-pages/man3/shmat.3p.html
+
+if `shmat` fail, it will return -1.
+&gt;        On success, a valid shared memory identifier is returned.  On error,
+       -1 is returned, and errno is set to indicate the error.
+
+* if shmat() is error, it will return -1.
+So I modify all error condition." class="link-gray" href="/migraine-sudo/AFL-JS/commit/f10d601b3f3026461c669251696e6f1328ce6c00">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-03-05T16:09:41Z" class="no-wrap">Mar 5, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="afl-gcc.c" id="4d7417de02c1a363732b3f6b825600e3-f0e4d853848985b4ed457707d666474246f5aa95" href="/migraine-sudo/AFL-JS/blob/master/afl-gcc.c">afl-gcc.c</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="afl-gotcpu.c" id="1bcd8615599ebd891328a00dd5d75d76-630b7ffa3781ecff2d4f4c7cdb4e7b60fdef54ec" href="/migraine-sudo/AFL-JS/blob/master/afl-gotcpu.c">afl-gotcpu.c</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Add Android.bp for Android in tree build (#59)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/077d73f7fc12b8b64e71befdb81744056640eaf1">Add Android.bp for Android in tree build (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="536868813" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/59" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/59/hovercard" href="https://github.com/google/AFL/pull/59">google#59</a><a data-pjax="true" title="Add Android.bp for Android in tree build (#59)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/077d73f7fc12b8b64e71befdb81744056640eaf1">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-12-20T17:05:00Z" class="no-wrap">Dec 20, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="afl-plot" id="20d3f79a052c62b1c701c7dc75dae75e-78825a95b7cb3144b0e29f0afd9175b266a852c5" href="/migraine-sudo/AFL-JS/blob/master/afl-plot">afl-plot</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="afl-showmap.c" id="d390aa805c6960f15f78ab9179a0a7c2-4947a9c9fa4cb3843cfc25ae3dc962433f7975a1" href="/migraine-sudo/AFL-JS/blob/master/afl-showmap.c">afl-showmap.c</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Fix shmat() return value checking. (#76)
+
+* fix a little mistake
+
+http://man7.org/linux/man-pages/man3/shmat.3p.html
+
+if `shmat` fail, it will return -1.
+&gt;        On success, a valid shared memory identifier is returned.  On error,
+       -1 is returned, and errno is set to indicate the error.
+
+* if shmat() is error, it will return -1.
+So I modify all error condition." class="link-gray" href="/migraine-sudo/AFL-JS/commit/f10d601b3f3026461c669251696e6f1328ce6c00">Fix shmat() return value checking. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="571459273" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/76" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/76/hovercard" href="https://github.com/google/AFL/pull/76">google#76</a><a data-pjax="true" title="Fix shmat() return value checking. (#76)
+
+* fix a little mistake
+
+http://man7.org/linux/man-pages/man3/shmat.3p.html
+
+if `shmat` fail, it will return -1.
+&gt;        On success, a valid shared memory identifier is returned.  On error,
+       -1 is returned, and errno is set to indicate the error.
+
+* if shmat() is error, it will return -1.
+So I modify all error condition." class="link-gray" href="/migraine-sudo/AFL-JS/commit/f10d601b3f3026461c669251696e6f1328ce6c00">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-03-05T16:09:41Z" class="no-wrap">Mar 5, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="afl-tmin.c" id="6b46cb44b1174cd3b4cc595517300a3f-380cd60d97eb002df38663d075c911d44e989e76" href="/migraine-sudo/AFL-JS/blob/master/afl-tmin.c">afl-tmin.c</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Fix shmat() return value checking. (#76)
+
+* fix a little mistake
+
+http://man7.org/linux/man-pages/man3/shmat.3p.html
+
+if `shmat` fail, it will return -1.
+&gt;        On success, a valid shared memory identifier is returned.  On error,
+       -1 is returned, and errno is set to indicate the error.
+
+* if shmat() is error, it will return -1.
+So I modify all error condition." class="link-gray" href="/migraine-sudo/AFL-JS/commit/f10d601b3f3026461c669251696e6f1328ce6c00">Fix shmat() return value checking. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="571459273" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/76" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/76/hovercard" href="https://github.com/google/AFL/pull/76">google#76</a><a data-pjax="true" title="Fix shmat() return value checking. (#76)
+
+* fix a little mistake
+
+http://man7.org/linux/man-pages/man3/shmat.3p.html
+
+if `shmat` fail, it will return -1.
+&gt;        On success, a valid shared memory identifier is returned.  On error,
+       -1 is returned, and errno is set to indicate the error.
+
+* if shmat() is error, it will return -1.
+So I modify all error condition." class="link-gray" href="/migraine-sudo/AFL-JS/commit/f10d601b3f3026461c669251696e6f1328ce6c00">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-03-05T16:09:41Z" class="no-wrap">Mar 5, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="afl-whatsup" id="cedb5cda7c197bd03609d6e364fe94d7-bf1f7caf377c6c862e03a10f10d99bc0cea00c52" href="/migraine-sudo/AFL-JS/blob/master/afl-whatsup">afl-whatsup</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Add Android Support (#46)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/e75894a889fe854c02b9435186bd1e2927d6d490">Add Android Support (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="515893141" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/46" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/46/hovercard" href="https://github.com/google/AFL/pull/46">google#46</a><a data-pjax="true" title="Add Android Support (#46)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/e75894a889fe854c02b9435186bd1e2927d6d490">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-11-11T15:30:00Z" class="no-wrap">Nov 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="alloc-inl.h" id="6059506b9148c84da2647af00812241a-9a681269832e4c542348e7ba6c843d5ff92723bc" href="/migraine-sudo/AFL-JS/blob/master/alloc-inl.h">alloc-inl.h</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="android-ashmem.h" id="0cffc6ac0f7c5cbda561dc8a4a904b40-4922904c5dfa6ab3f148807108ac068be442e0d4" href="/migraine-sudo/AFL-JS/blob/master/android-ashmem.h">android-ashmem.h</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Add Android Support (#46)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/e75894a889fe854c02b9435186bd1e2927d6d490">Add Android Support (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="515893141" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/46" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/46/hovercard" href="https://github.com/google/AFL/pull/46">google#46</a><a data-pjax="true" title="Add Android Support (#46)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/e75894a889fe854c02b9435186bd1e2927d6d490">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-11-11T15:30:00Z" class="no-wrap">Nov 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="config.h" id="98ba56d25d28991fe5fb1f3fe240d0e1-ea6aac4c4aa8976e3475b68c937dcc985433bcbd" href="/migraine-sudo/AFL-JS/blob/master/config.h">config.h</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Add Android Support (#46)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/e75894a889fe854c02b9435186bd1e2927d6d490">Add Android Support (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="515893141" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/46" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/46/hovercard" href="https://github.com/google/AFL/pull/46">google#46</a><a data-pjax="true" title="Add Android Support (#46)" class="link-gray" href="/migraine-sudo/AFL-JS/commit/e75894a889fe854c02b9435186bd1e2927d6d490">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-11-11T15:30:00Z" class="no-wrap">Nov 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="debug.h" id="0483bb2079adc3936e07b79b224930aa-5f75974af59f9ac97e62691bcebe43d69fe7b74f" href="/migraine-sudo/AFL-JS/blob/master/debug.h">debug.h</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="hash.h" id="ba0b9c6d82ac3813b6518cade1ce6deb-e17fc8ff1b0dbee9fb0862a67f4d2dfa4c7a4604" href="/migraine-sudo/AFL-JS/blob/master/hash.h">hash.h</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="test-instr.c" id="259d423fb20c5d344d7d0c2344dfb3b4-68fe141ea1cab08f798adef58a88efc4cde679f6" href="/migraine-sudo/AFL-JS/blob/master/test-instr.c">test-instr.c</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="test-libfuzzer-target.c" id="56e91a9de3f71e881cf40dddbf9841b4-c0214060ac93b3c0aea84f8dedca8910828df682" href="/migraine-sudo/AFL-JS/blob/master/test-libfuzzer-target.c">test-libfuzzer-target.c</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Add tests for trace-pc-guard instrumentation (#26)
+
+Also fix copied test and remove trailing whitespace." class="link-gray" href="/migraine-sudo/AFL-JS/commit/3eaaa738d396d64ec4474a70dff2a3aef8cf2642">Add tests for trace-pc-guard instrumentation (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="490572609" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/26" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/26/hovercard" href="https://github.com/google/AFL/pull/26">google#26</a><a data-pjax="true" title="Add tests for trace-pc-guard instrumentation (#26)
+
+Also fix copied test and remove trailing whitespace." class="link-gray" href="/migraine-sudo/AFL-JS/commit/3eaaa738d396d64ec4474a70dff2a3aef8cf2642">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-10T01:51:23Z" class="no-wrap">Sep 10, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="types.h" id="7e0d28c0d7e7dacad55e50fd3fef549e-f4a5716bfc051bbee192b404d050c4954f933e6a" href="/migraine-sudo/AFL-JS/blob/master/types.h">types.h</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">Change all instances of "Google Inc." to "Google LLC" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="492314802" data-permission-text="Title is private" data-url="https://github.com/google/AFL/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/google/AFL/pull/31/hovercard" href="https://github.com/google/AFL/pull/31">google#31</a><a data-pjax="true" title='Change all instances of "Google Inc." to "Google LLC" (#31)' class="link-gray" href="/migraine-sudo/AFL-JS/commit/ac2b6ac3a74e24a41fe9560cee5c37b4e33d125c">)</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-09-11T17:27:21Z" class="no-wrap">Sep 11, 2019</time-ago></span>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+
+
+</div>
+
+  <div id="readme" class="Box md js-code-block-container Box--condensed">
+    <div class="Box-header d-flex flex-items-center flex-justify-between ">
+      <h2 class="Box-title pr-3">
+        <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+        README.md
+      </h2>
+    </div>
+        <div class="Popover anim-scale-in js-tagsearch-popover"
+     hidden
+     data-tagsearch-url="/migraine-sudo/AFL-JS/find-symbols"
+     data-tagsearch-ref="master"
+     data-tagsearch-path="README.md"
+     data-tagsearch-lang="Markdown"
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:248279293,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/migraine-sudo/AFL-JS&quot;,&quot;user_id&quot;:null}}"
+     data-hydro-click-hmac="9d783c156624747201427badf39ce60bab04af5f5acfbbe5d06fe41b7278e602">
+  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
+    <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
+    </div>
+  </div>
+</div>
+
+      <div class="Box-body">
+        <article class="markdown-body entry-content p-5" itemprop="text"><h1><a id="user-content-american-fuzzy-lop" class="anchor" aria-hidden="true" href="#american-fuzzy-lop"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>american fuzzy lop</h1>
+<p><a href="https://travis-ci.org/google/AFL" rel="nofollow"><img src="https://camo.githubusercontent.com/7736dfcaa442d470c541254ee9c73dccec05107e/68747470733a2f2f7472617669732d63692e6f72672f676f6f676c652f41464c2e7376673f6272616e63683d6d6173746572" alt="Build Status" data-canonical-src="https://travis-ci.org/google/AFL.svg?branch=master" style="max-width:100%;"></a></p>
+<p>Originally developed by Michal Zalewski <a href="mailto:lcamtuf@google.com">lcamtuf@google.com</a>.</p>
+<p>See <a href="/migraine-sudo/AFL-JS/blob/master/docs/QuickStartGuide.txt">QuickStartGuide.txt</a> if you don't have time to read
+this file.</p>
+<h2><a id="user-content-1-challenges-of-guided-fuzzing" class="anchor" aria-hidden="true" href="#1-challenges-of-guided-fuzzing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1) Challenges of guided fuzzing</h2>
+<p>Fuzzing is one of the most powerful and proven strategies for identifying
+security issues in real-world software; it is responsible for the vast
+majority of remote code execution and privilege escalation bugs found to date
+in security-critical software.</p>
+<p>Unfortunately, fuzzing is also relatively shallow; blind, random mutations
+make it very unlikely to reach certain code paths in the tested code, leaving
+some vulnerabilities firmly outside the reach of this technique.</p>
+<p>There have been numerous attempts to solve this problem. One of the early
+approaches - pioneered by Tavis Ormandy - is corpus distillation. The method
+relies on coverage signals to select a subset of interesting seeds from a
+massive, high-quality corpus of candidate files, and then fuzz them by
+traditional means. The approach works exceptionally well, but requires such
+a corpus to be readily available. In addition, block coverage measurements
+provide only a very simplistic understanding of program state, and are less
+useful for guiding the fuzzing effort in the long haul.</p>
+<p>Other, more sophisticated research has focused on techniques such as program
+flow analysis ("concolic execution"), symbolic execution, or static analysis.
+All these methods are extremely promising in experimental settings, but tend
+to suffer from reliability and performance problems in practical uses - and
+currently do not offer a viable alternative to "dumb" fuzzing techniques.</p>
+<h2><a id="user-content-2-the-afl-fuzz-approach" class="anchor" aria-hidden="true" href="#2-the-afl-fuzz-approach"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2) The afl-fuzz approach</h2>
+<p>American Fuzzy Lop is a brute-force fuzzer coupled with an exceedingly simple
+but rock-solid instrumentation-guided genetic algorithm. It uses a modified
+form of edge coverage to effortlessly pick up subtle, local-scale changes to
+program control flow.</p>
+<p>Simplifying a bit, the overall algorithm can be summed up as:</p>
+<ol>
+<li>
+<p>Load user-supplied initial test cases into the queue,</p>
+</li>
+<li>
+<p>Take next input file from the queue,</p>
+</li>
+<li>
+<p>Attempt to trim the test case to the smallest size that doesn't alter
+the measured behavior of the program,</p>
+</li>
+<li>
+<p>Repeatedly mutate the file using a balanced and well-researched variety
+of traditional fuzzing strategies,</p>
+</li>
+<li>
+<p>If any of the generated mutations resulted in a new state transition
+recorded by the instrumentation, add mutated output as a new entry in the
+queue.</p>
+</li>
+<li>
+<p>Go to 2.</p>
+</li>
+</ol>
+<p>The discovered test cases are also periodically culled to eliminate ones that
+have been obsoleted by newer, higher-coverage finds; and undergo several other
+instrumentation-driven effort minimization steps.</p>
+<p>As a side result of the fuzzing process, the tool creates a small,
+self-contained corpus of interesting test cases. These are extremely useful
+for seeding other, labor- or resource-intensive testing regimes - for example,
+for stress-testing browsers, office applications, graphics suites, or
+closed-source tools.</p>
+<p>The fuzzer is thoroughly tested to deliver out-of-the-box performance far
+superior to blind fuzzing or coverage-only tools.</p>
+<h2><a id="user-content-3-instrumenting-programs-for-use-with-afl" class="anchor" aria-hidden="true" href="#3-instrumenting-programs-for-use-with-afl"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3) Instrumenting programs for use with AFL</h2>
+<p>When source code is available, instrumentation can be injected by a companion
+tool that works as a drop-in replacement for gcc or clang in any standard build
+process for third-party code.</p>
+<p>The instrumentation has a fairly modest performance impact; in conjunction with
+other optimizations implemented by afl-fuzz, most programs can be fuzzed as fast
+or even faster than possible with traditional tools.</p>
+<p>The correct way to recompile the target program may vary depending on the
+specifics of the build process, but a nearly-universal approach would be:</p>
+<div class="highlight highlight-source-shell"><pre>$ CC=/path/to/afl/afl-gcc ./configure
+$ make clean all</pre></div>
+<p>For C++ programs, you'd would also want to set <code>CXX=/path/to/afl/afl-g++</code>.</p>
+<p>The clang wrappers (afl-clang and afl-clang++) can be used in the same way;
+clang users may also opt to leverage a higher-performance instrumentation mode,
+as described in llvm_mode/README.llvm.</p>
+<p>When testing libraries, you need to find or write a simple program that reads
+data from stdin or from a file and passes it to the tested library. In such a
+case, it is essential to link this executable against a static version of the
+instrumented library, or to make sure that the correct .so file is loaded at
+runtime (usually by setting <code>LD_LIBRARY_PATH</code>). The simplest option is a static
+build, usually possible via:</p>
+<div class="highlight highlight-source-shell"><pre>$ CC=/path/to/afl/afl-gcc ./configure --disable-shared</pre></div>
+<p>Setting <code>AFL_HARDEN=1</code> when calling 'make' will cause the CC wrapper to
+automatically enable code hardening options that make it easier to detect
+simple memory bugs. Libdislocator, a helper library included with AFL (see
+libdislocator/README.dislocator) can help uncover heap corruption issues, too.</p>
+<p>PS. ASAN users are advised to review <a href="/migraine-sudo/AFL-JS/blob/master/docs/notes_for_asan.txt">notes_for_asan.txt</a> file for important
+caveats.</p>
+<h2><a id="user-content-4-instrumenting-binary-only-apps" class="anchor" aria-hidden="true" href="#4-instrumenting-binary-only-apps"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4) Instrumenting binary-only apps</h2>
+<p>When source code is <em>NOT</em> available, the fuzzer offers experimental support for
+fast, on-the-fly instrumentation of black-box binaries. This is accomplished
+with a version of QEMU running in the lesser-known "user space emulation" mode.</p>
+<p>QEMU is a project separate from AFL, but you can conveniently build the
+feature by doing:</p>
+<div class="highlight highlight-source-shell"><pre>$ <span class="pl-c1">cd</span> qemu_mode
+$ ./build_qemu_support.sh</pre></div>
+<p>For additional instructions and caveats, see qemu_mode/README.qemu.</p>
+<p>The mode is approximately 2-5x slower than compile-time instrumentation, is
+less conducive to parallelization, and may have some other quirks.</p>
+<h2><a id="user-content-5-choosing-initial-test-cases" class="anchor" aria-hidden="true" href="#5-choosing-initial-test-cases"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>5) Choosing initial test cases</h2>
+<p>To operate correctly, the fuzzer requires one or more starting file that
+contains a good example of the input data normally expected by the targeted
+application. There are two basic rules:</p>
+<ul>
+<li>
+<p>Keep the files small. Under 1 kB is ideal, although not strictly necessary.
+For a discussion of why size matters, see <a href="/migraine-sudo/AFL-JS/blob/master/docs/perf_tips.txt">perf_tips.txt</a>.</p>
+</li>
+<li>
+<p>Use multiple test cases only if they are functionally different from
+each other. There is no point in using fifty different vacation photos
+to fuzz an image library.</p>
+</li>
+</ul>
+<p>You can find many good examples of starting files in the testcases/ subdirectory
+that comes with this tool.</p>
+<p>PS. If a large corpus of data is available for screening, you may want to use
+the afl-cmin utility to identify a subset of functionally distinct files that
+exercise different code paths in the target binary.</p>
+<h2><a id="user-content-6-fuzzing-binaries" class="anchor" aria-hidden="true" href="#6-fuzzing-binaries"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>6) Fuzzing binaries</h2>
+<p>The fuzzing process itself is carried out by the afl-fuzz utility. This program
+requires a read-only directory with initial test cases, a separate place to
+store its findings, plus a path to the binary to test.</p>
+<p>For target binaries that accept input directly from stdin, the usual syntax is:</p>
+<div class="highlight highlight-source-shell"><pre>$ ./afl-fuzz -i testcase_dir -o findings_dir /path/to/program [...params...]</pre></div>
+<p>For programs that take input from a file, use '@@' to mark the location in
+the target's command line where the input file name should be placed. The
+fuzzer will substitute this for you:</p>
+<div class="highlight highlight-source-shell"><pre>$ ./afl-fuzz -i testcase_dir -o findings_dir /path/to/program @@</pre></div>
+<p>You can also use the -f option to have the mutated data written to a specific
+file. This is useful if the program expects a particular file extension or so.</p>
+<p>Non-instrumented binaries can be fuzzed in the QEMU mode (add -Q in the command
+line) or in a traditional, blind-fuzzer mode (specify -n).</p>
+<p>You can use -t and -m to override the default timeout and memory limit for the
+executed process; rare examples of targets that may need these settings touched
+include compilers and video decoders.</p>
+<p>Tips for optimizing fuzzing performance are discussed in <a href="/migraine-sudo/AFL-JS/blob/master/docs/perf_tips.txt">perf_tips.txt</a>.</p>
+<p>Note that afl-fuzz starts by performing an array of deterministic fuzzing
+steps, which can take several days, but tend to produce neat test cases. If you
+want quick &amp; dirty results right away - akin to zzuf and other traditional
+fuzzers - add the -d option to the command line.</p>
+<h2><a id="user-content-7-interpreting-output" class="anchor" aria-hidden="true" href="#7-interpreting-output"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>7) Interpreting output</h2>
+<p>See the <a href="/migraine-sudo/AFL-JS/blob/master/docs/status_screen.txt">status_screen.txt</a> file for information on
+how to interpret the displayed stats and monitor the health of the process.
+Be sure to consult this file especially if any UI elements are highlighted in
+red.</p>
+<p>The fuzzing process will continue until you press Ctrl-C. At minimum, you want
+to allow the fuzzer to complete one queue cycle, which may take anywhere from a
+couple of hours to a week or so.</p>
+<p>There are three subdirectories created within the output directory and updated
+in real time:</p>
+<ul>
+<li>
+<p>queue/   - test cases for every distinctive execution path, plus all the
+starting files given by the user. This is the synthesized corpus
+mentioned in section 2.
+Before using this corpus for any other purposes, you can shrink
+it to a smaller size using the afl-cmin tool. The tool will find
+a smaller subset of files offering equivalent edge coverage.</p>
+</li>
+<li>
+<p>crashes/ - unique test cases that cause the tested program to receive a
+fatal signal (e.g., SIGSEGV, SIGILL, SIGABRT). The entries are
+grouped by the received signal.</p>
+</li>
+<li>
+<p>hangs/   - unique test cases that cause the tested program to time out. The
+default time limit before something is classified as a hang is
+the larger of 1 second and the value of the -t parameter.
+The value can be fine-tuned by setting AFL_HANG_TMOUT, but this
+is rarely necessary.</p>
+</li>
+</ul>
+<p>Crashes and hangs are considered "unique" if the associated execution paths
+involve any state transitions not seen in previously-recorded faults. If a
+single bug can be reached in multiple ways, there will be some count inflation
+early in the process, but this should quickly taper off.</p>
+<p>The file names for crashes and hangs are correlated with parent, non-faulting
+queue entries. This should help with debugging.</p>
+<p>When you can't reproduce a crash found by afl-fuzz, the most likely cause is
+that you are not setting the same memory limit as used by the tool. Try:</p>
+<div class="highlight highlight-source-shell"><pre>$ LIMIT_MB=50
+$ ( <span class="pl-c1">ulimit</span> -Sv $[LIMIT_MB <span class="pl-k">&lt;&lt;</span> 10]<span class="pl-k">;</span> /path/to/tested_binary ... )</pre></div>
+<p>Change LIMIT_MB to match the -m parameter passed to afl-fuzz. On OpenBSD,
+also change -Sv to -Sd.</p>
+<p>Any existing output directory can be also used to resume aborted jobs; try:</p>
+<div class="highlight highlight-source-shell"><pre>$ ./afl-fuzz -i- -o existing_output_dir [...etc...]</pre></div>
+<p>If you have gnuplot installed, you can also generate some pretty graphs for any
+active fuzzing task using afl-plot. For an example of how this looks like,
+see <a href="http://lcamtuf.coredump.cx/afl/plot/" rel="nofollow">http://lcamtuf.coredump.cx/afl/plot/</a>.</p>
+<h2><a id="user-content-8-parallelized-fuzzing" class="anchor" aria-hidden="true" href="#8-parallelized-fuzzing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>8) Parallelized fuzzing</h2>
+<p>Every instance of afl-fuzz takes up roughly one core. This means that on
+multi-core systems, parallelization is necessary to fully utilize the hardware.
+For tips on how to fuzz a common target on multiple cores or multiple networked
+machines, please refer to <a href="/migraine-sudo/AFL-JS/blob/master/docs/parallel_fuzzing.txt">parallel_fuzzing.txt</a>.</p>
+<p>The parallel fuzzing mode also offers a simple way for interfacing AFL to other
+fuzzers, to symbolic or concolic execution engines, and so forth; again, see the
+last section of <a href="/migraine-sudo/AFL-JS/blob/master/docs/parallel_fuzzing.txt">parallel_fuzzing.txt</a> for tips.</p>
+<h2><a id="user-content-9-fuzzer-dictionaries" class="anchor" aria-hidden="true" href="#9-fuzzer-dictionaries"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>9) Fuzzer dictionaries</h2>
+<p>By default, afl-fuzz mutation engine is optimized for compact data formats -
+say, images, multimedia, compressed data, regular expression syntax, or shell
+scripts. It is somewhat less suited for languages with particularly verbose and
+redundant verbiage - notably including HTML, SQL, or JavaScript.</p>
+<p>To avoid the hassle of building syntax-aware tools, afl-fuzz provides a way to
+seed the fuzzing process with an optional dictionary of language keywords,
+magic headers, or other special tokens associated with the targeted data type
+-- and use that to reconstruct the underlying grammar on the go:</p>
+<p><a href="http://lcamtuf.blogspot.com/2015/01/afl-fuzz-making-up-grammar-with.html" rel="nofollow">http://lcamtuf.blogspot.com/2015/01/afl-fuzz-making-up-grammar-with.html</a></p>
+<p>To use this feature, you first need to create a dictionary in one of the two
+formats discussed in dictionaries/README.dictionaries; and then point the fuzzer
+to it via the -x option in the command line.</p>
+<p>(Several common dictionaries are already provided in that subdirectory, too.)</p>
+<p>There is no way to provide more structured descriptions of the underlying
+syntax, but the fuzzer will likely figure out some of this based on the
+instrumentation feedback alone. This actually works in practice, say:</p>
+<p><a href="http://lcamtuf.blogspot.com/2015/04/finding-bugs-in-sqlite-easy-way.html" rel="nofollow">http://lcamtuf.blogspot.com/2015/04/finding-bugs-in-sqlite-easy-way.html</a></p>
+<p>PS. Even when no explicit dictionary is given, afl-fuzz will try to extract
+existing syntax tokens in the input corpus by watching the instrumentation
+very closely during deterministic byte flips. This works for some types of
+parsers and grammars, but isn't nearly as good as the -x mode.</p>
+<p>If a dictionary is really hard to come by, another option is to let AFL run
+for a while, and then use the token capture library that comes as a companion
+utility with AFL. For that, see libtokencap/README.tokencap.</p>
+<h2><a id="user-content-10-crash-triage" class="anchor" aria-hidden="true" href="#10-crash-triage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>10) Crash triage</h2>
+<p>The coverage-based grouping of crashes usually produces a small data set that
+can be quickly triaged manually or with a very simple GDB or Valgrind script.
+Every crash is also traceable to its parent non-crashing test case in the
+queue, making it easier to diagnose faults.</p>
+<p>Having said that, it's important to acknowledge that some fuzzing crashes can be
+difficult to quickly evaluate for exploitability without a lot of debugging and
+code analysis work. To assist with this task, afl-fuzz supports a very unique
+"crash exploration" mode enabled with the -C flag.</p>
+<p>In this mode, the fuzzer takes one or more crashing test cases as the input,
+and uses its feedback-driven fuzzing strategies to very quickly enumerate all
+code paths that can be reached in the program while keeping it in the
+crashing state.</p>
+<p>Mutations that do not result in a crash are rejected; so are any changes that
+do not affect the execution path.</p>
+<p>The output is a small corpus of files that can be very rapidly examined to see
+what degree of control the attacker has over the faulting address, or whether
+it is possible to get past an initial out-of-bounds read - and see what lies
+beneath.</p>
+<p>Oh, one more thing: for test case minimization, give afl-tmin a try. The tool
+can be operated in a very simple way:</p>
+<div class="highlight highlight-source-shell"><pre>$ ./afl-tmin -i test_case -o minimized_result -- /path/to/program [...]</pre></div>
+<p>The tool works with crashing and non-crashing test cases alike. In the crash
+mode, it will happily accept instrumented and non-instrumented binaries. In the
+non-crashing mode, the minimizer relies on standard AFL instrumentation to make
+the file simpler without altering the execution path.</p>
+<p>The minimizer accepts the -m, -t, -f and @@ syntax in a manner compatible with
+afl-fuzz.</p>
+<p>Another recent addition to AFL is the afl-analyze tool. It takes an input
+file, attempts to sequentially flip bytes, and observes the behavior of the
+tested program. It then color-codes the input based on which sections appear to
+be critical, and which are not; while not bulletproof, it can often offer quick
+insights into complex file formats. More info about its operation can be found
+near the end of <a href="/migraine-sudo/AFL-JS/blob/master/docs/technical_details.txt">technical_details.txt</a>.</p>
+<h2><a id="user-content-11-going-beyond-crashes" class="anchor" aria-hidden="true" href="#11-going-beyond-crashes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>11) Going beyond crashes</h2>
+<p>Fuzzing is a wonderful and underutilized technique for discovering non-crashing
+design and implementation errors, too. Quite a few interesting bugs have been
+found by modifying the target programs to call abort() when, say:</p>
+<ul>
+<li>
+<p>Two bignum libraries produce different outputs when given the same
+fuzzer-generated input,</p>
+</li>
+<li>
+<p>An image library produces different outputs when asked to decode the same
+input image several times in a row,</p>
+</li>
+<li>
+<p>A serialization / deserialization library fails to produce stable outputs
+when iteratively serializing and deserializing fuzzer-supplied data,</p>
+</li>
+<li>
+<p>A compression library produces an output inconsistent with the input file
+when asked to compress and then decompress a particular blob.</p>
+</li>
+</ul>
+<p>Implementing these or similar sanity checks usually takes very little time;
+if you are the maintainer of a particular package, you can make this code
+conditional with <code>#ifdef FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION</code> (a flag also
+shared with libfuzzer) or <code>#ifdef __AFL_COMPILER</code> (this one is just for AFL).</p>
+<h2><a id="user-content-12-common-sense-risks" class="anchor" aria-hidden="true" href="#12-common-sense-risks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>12) Common-sense risks</h2>
+<p>Please keep in mind that, similarly to many other computationally-intensive
+tasks, fuzzing may put strain on your hardware and on the OS. In particular:</p>
+<ul>
+<li>
+<p>Your CPU will run hot and will need adequate cooling. In most cases, if
+cooling is insufficient or stops working properly, CPU speeds will be
+automatically throttled. That said, especially when fuzzing on less
+suitable hardware (laptops, smartphones, etc), it's not entirely impossible
+for something to blow up.</p>
+</li>
+<li>
+<p>Targeted programs may end up erratically grabbing gigabytes of memory or
+filling up disk space with junk files. AFL tries to enforce basic memory
+limits, but can't prevent each and every possible mishap. The bottom line
+is that you shouldn't be fuzzing on systems where the prospect of data loss
+is not an acceptable risk.</p>
+</li>
+<li>
+<p>Fuzzing involves billions of reads and writes to the filesystem. On modern
+systems, this will be usually heavily cached, resulting in fairly modest
+"physical" I/O - but there are many factors that may alter this equation.
+It is your responsibility to monitor for potential trouble; with very heavy
+I/O, the lifespan of many HDDs and SSDs may be reduced.</p>
+<p>A good way to monitor disk I/O on Linux is the 'iostat' command:</p>
+</li>
+</ul>
+<div class="highlight highlight-source-shell"><pre>    $ iostat -d 3 -x -k [...optional disk ID...]</pre></div>
+<h2><a id="user-content-13-known-limitations--areas-for-improvement" class="anchor" aria-hidden="true" href="#13-known-limitations--areas-for-improvement"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>13) Known limitations &amp; areas for improvement</h2>
+<p>Here are some of the most important caveats for AFL:</p>
+<ul>
+<li>
+<p>AFL detects faults by checking for the first spawned process dying due to
+a signal (SIGSEGV, SIGABRT, etc). Programs that install custom handlers for
+these signals may need to have the relevant code commented out. In the same
+vein, faults in child processed spawned by the fuzzed target may evade
+detection unless you manually add some code to catch that.</p>
+</li>
+<li>
+<p>As with any other brute-force tool, the fuzzer offers limited coverage if
+encryption, checksums, cryptographic signatures, or compression are used to
+wholly wrap the actual data format to be tested.</p>
+<p>To work around this, you can comment out the relevant checks (see
+experimental/libpng_no_checksum/ for inspiration); if this is not possible,
+you can also write a postprocessor, as explained in
+experimental/post_library/.</p>
+</li>
+<li>
+<p>There are some unfortunate trade-offs with ASAN and 64-bit binaries. This
+isn't due to any specific fault of afl-fuzz; see <a href="/migraine-sudo/AFL-JS/blob/master/docs/notes_for_asan.txt">notes_for_asan.txt</a>
+for tips.</p>
+</li>
+<li>
+<p>There is no direct support for fuzzing network services, background
+daemons, or interactive apps that require UI interaction to work. You may
+need to make simple code changes to make them behave in a more traditional
+way. Preeny may offer a relatively simple option, too - see:
+<a href="https://github.com/zardus/preeny">https://github.com/zardus/preeny</a></p>
+<p>Some useful tips for modifying network-based services can be also found at:
+<a href="https://www.fastly.com/blog/how-to-fuzz-server-american-fuzzy-lop" rel="nofollow">https://www.fastly.com/blog/how-to-fuzz-server-american-fuzzy-lop</a></p>
+</li>
+<li>
+<p>AFL doesn't output human-readable coverage data. If you want to monitor
+coverage, use afl-cov from Michael Rash: <a href="https://github.com/mrash/afl-cov">https://github.com/mrash/afl-cov</a></p>
+</li>
+<li>
+<p>Occasionally, sentient machines rise against their creators. If this
+happens to you, please consult <a href="http://lcamtuf.coredump.cx/prep/" rel="nofollow">http://lcamtuf.coredump.cx/prep/</a>.</p>
+</li>
+</ul>
+<p>Beyond this, see INSTALL for platform-specific tips.</p>
+<h2><a id="user-content-14-special-thanks" class="anchor" aria-hidden="true" href="#14-special-thanks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>14) Special thanks</h2>
+<p>Many of the improvements to afl-fuzz wouldn't be possible without feedback,
+bug reports, or patches from:</p>
+<pre><code>  Jann Horn                             Hanno Boeck
+  Felix Groebert                        Jakub Wilk
+  Richard W. M. Jones                   Alexander Cherepanov
+  Tom Ritter                            Hovik Manucharyan
+  Sebastian Roschke                     Eberhard Mattes
+  Padraig Brady                         Ben Laurie
+  @dronesec                             Luca Barbato
+  Tobias Ospelt                         Thomas Jarosch
+  Martin Carpenter                      Mudge Zatko
+  Joe Zbiciak                           Ryan Govostes
+  Michael Rash                          William Robinet
+  Jonathan Gray                         Filipe Cabecinhas
+  Nico Weber                            Jodie Cunningham
+  Andrew Griffiths                      Parker Thompson
+  Jonathan Neuschfer                    Tyler Nighswander
+  Ben Nagy                              Samir Aguiar
+  Aidan Thornton                        Aleksandar Nikolich
+  Sam Hakim                             Laszlo Szekeres
+  David A. Wheeler                      Turo Lamminen
+  Andreas Stieger                       Richard Godbee
+  Louis Dassy                           teor2345
+  Alex Moneger                          Dmitry Vyukov
+  Keegan McAllister                     Kostya Serebryany
+  Richo Healey                          Martijn Bogaard
+  rc0r                                  Jonathan Foote
+  Christian Holler                      Dominique Pelle
+  Jacek Wielemborek                     Leo Barnes
+  Jeremy Barnes                         Jeff Trull
+  Guillaume Endignoux                   ilovezfs
+  Daniel Godas-Lopez                    Franjo Ivancic
+  Austin Seipp                          Daniel Komaromy
+  Daniel Binderman                      Jonathan Metzman
+  Vegard Nossum                         Jan Kneschke
+  Kurt Roeckx                           Marcel Bohme
+  Van-Thuan Pham                        Abhik Roychoudhury
+  Joshua J. Drake                       Toby Hutton
+  Rene Freingruber                      Sergey Davidoff
+  Sami Liedes                           Craig Young
+  Andrzej Jackowski                     Daniel Hodson
+</code></pre>
+<p>Thank you!</p>
+<h2><a id="user-content-15-contact" class="anchor" aria-hidden="true" href="#15-contact"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>15) Contact</h2>
+<p>Questions? Concerns? Bug reports? Please use GitHub.</p>
+<p>There is also a mailing list for the project; to join, send a mail to
+<a href="mailto:afl-users+subscribe@googlegroups.com">afl-users+subscribe@googlegroups.com</a>. Or, if you prefer to browse
+archives first, try: <a href="https://groups.google.com/group/afl-users" rel="nofollow">https://groups.google.com/group/afl-users</a>.</p>
+</article>
+      </div>
+  </div>
+
+
+
+
+  </div>
+</div>
+
+    </main>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-lg width-full px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2020 GitHub, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" async="async" integrity="sha512-o4vS4IKrjdy/HD+xr2+VhO6DxQmj5jikhHbEGrd8+JGhpmIOxRrpT1Qo5k3IhKimm8VXIu3pyYejLtOAkm+OsQ==" type="application/javascript" id="js-conditional-compat" data-src="https://github.githubassets.com/assets/compat-bootstrap-a38bd2e0.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-2GtXiukHeT1/Kt5UHrVa2iMiBF1fCLQILWG0UKazKtQXjLZpcurZ6AXlkiTZFUeEtVWjoV8LvyppgPp9rkQMUA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-d86b578a.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-1/6VVx6z9r6uphSoGlmYgbqD5KaY+GVMt1Gqa3DIa0U+3Pv2SWu8Fk1BZ2xPne5upvF8HdEWcGeiUjd2URl+oA==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-d7fe9557.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-IMO6eLl5ZK3m/mxD2t4huVJGcP6FWFmugYFzQVo6smfkVH+Oks686AJxTh8Aa+6BulsBBtoko2yg8ArnPSX6HQ==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-20c3ba78.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-XaszFjDaN+CJuBVn84eJdkcG3IFcCJlQCnxQbFpi9NaA/E4y0k+8HEH6YHjgnDFM+6BkNmODYo+yXwwAExlAXQ==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-5dab3316.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+
+  </body>
+</html>
+

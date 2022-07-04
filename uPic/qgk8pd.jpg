@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	
+	<title>常熟理工信息安全实验室 &#8211; 致力于网络安全技术和软件开发技术研究</title>
+<link rel='dns-prefetch' href='//6.ldgnet.cslg.edu.cn' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="常熟理工信息安全实验室 &raquo; Feed" href="http://6.ldgnet.cslg.edu.cn" />
+<link rel="alternate" type="application/rss+xml" title="常熟理工信息安全实验室 &raquo; 评论Feed" href="http://6.ldgnet.cslg.edu.cn/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/6.ldgnet.cslg.edu.cn\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://6.ldgnet.cslg.edu.cn/wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='benzer-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%7CRaleway%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='specia-style-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/benzer/style.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/css/owl.carousel.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/css/bootstrap.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='woo-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/css/woo.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='specia-form-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/css/form.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='specia-typography-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/css/typography.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='specia-media-query-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/css/media-query.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='specia-widget-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/css/widget.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/css/animate.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='specia-text-rotator-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/css/text-rotator.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='specia-menus-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/css/menus.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/css/fonts/font-awesome/css/font-awesome.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='specia-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%7CRaleway%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='specia-parent-style-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/style.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='benzer-style-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/benzer/style.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='benzer-default-css'  href='http://6.ldgnet.cslg.edu.cn/wp-content/themes/benzer/css/colors/default.css?ver=5.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/js/bootstrap.min.js?ver=5.6' id='bootstrap-js'></script>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/js/owl.carousel.min.js?ver=5.6' id='owl-carousel-js'></script>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/js/jquery.simple-text-rotator.min.js?ver=5.6' id='jquery-text-rotator-js'></script>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/js/jquery.sticky.js?ver=5.6' id='jquery-sticky-js'></script>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/js/wow.min.js?ver=5.6' id='wow-min-js'></script>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/js/component.min.js?ver=5.6' id='specia-service-component-js'></script>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/js/modernizr.custom.min.js?ver=5.6' id='specia-service-modernizr-custom-js'></script>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/js/dropdown.js?ver=5.6' id='specia-dropdown-js'></script>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-content/themes/benzer/js/custom.js?ver=5.6' id='benzer-custom-js-js'></script>
+<link rel="https://api.w.org/" href="http://6.ldgnet.cslg.edu.cn/index.php?rest_route=/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://6.ldgnet.cslg.edu.cn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://6.ldgnet.cslg.edu.cn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6" />
+</head>
+
+<body class="home blog">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">跳至正文</a>
+
+	
+
+<section id="specia-header" class="header-top-info-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-5">
+                <!-- Start Social Media Icons -->
+								
+				
+											<ul class="social pull-left">
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+													</ul>
+					                <!-- /End Social Media Icons-->
+            </div>
+			
+			
+            <div class="col-md-6 col-sm-7">
+									<!-- Start Contact Info -->
+					<ul class="info pull-right">
+												
+											</ul>
+					<!-- /End Contact Info -->
+							</div>
+        </div>
+    </div>
+</section>
+
+<div class="clearfix"></div>
+
+<header role="banner">
+	<nav class='navbar navbar-default sticky-nav' role='navigation'>
+		
+		<div class="container">
+
+			<!-- Mobile Display -->
+			<div class="navbar-header">
+				<a class="navbar-brand" href="http://6.ldgnet.cslg.edu.cn/" class="brand">
+					 
+						<span class="site-title">常熟理工信息安全实验室</span>
+										
+												<p class="site-description">致力于网络安全技术和软件开发技术研究</p>
+									</a>
+				
+				
+				
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<!-- /Mobile Display -->
+
+			<!-- Menu Toggle -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+			<div id="" class=""><ul class="nav navbar-nav navbar-right"><li class="current-menu-item active"><a href="http://6.ldgnet.cslg.edu.cn/" title="首页">首页</a></li><li id=" menu-item-2 " class="menu-item menu-item-2"><a href="http://6.ldgnet.cslg.edu.cn/?page_id=2">V</a></li></ul></div>
+			</div>
+			<!-- Menu Toggle -->
+			
+		</div>
+	</nav>
+</header>
+<div class="clearfix"></div>
+<section class="breadcrumb">
+    <div class="background-overlay">
+        <div class="container">
+            <div class="row padding-top-10 padding-bottom-10">
+                <div class="col-md-6 col-xs-12 col-sm-6">
+                     <h2>
+						关于我们					</h2>
+                </div>
+
+                <div class="col-md-6 col-xs-12 col-sm-6 breadcrumb-position">
+					<ul class="page-breadcrumb">
+						<li><a href="http://6.ldgnet.cslg.edu.cn">首页</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="clearfix"></div>
+
+	<div id="content" class="site-content" role="main">
+<!-- Blog & Sidebar Section -->
+<section class="page-wrapper">
+	<div class="container">
+		<div class="row padding-top-60 padding-bottom-60">
+			
+			<!--Blog Detail-->
+			<div class="col-md-12" >
+					
+										
+												
+							<article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-11">
+        <a  href="http://6.ldgnet.cslg.edu.cn/?p=1" class="post-thumbnail" ></a>
+	    <footer class="entry-footer">
+        <span class="byline">
+            <span class="author vcard">
+				<a class="url fn n" href="http://6.ldgnet.cslg.edu.cn/?author=1"><i class="fa fa-user"></i>  2021bestadmin</a>
+            </span>
+        </span>
+
+                <span class="cat-links">
+            <a href="http://6.ldgnet.cslg.edu.cn/?p=1"><i class="fa fa-folder-open"></i><a href="http://6.ldgnet.cslg.edu.cn/?cat=11" rel="category">公告</a></a>
+        </span>
+        
+        
+    </footer><!-- .entry-footer -->
+
+    <header class="entry-header">
+        <h2 class="entry-title"><a href="http://6.ldgnet.cslg.edu.cn/?p=1" rel="bookmark">关于我们</a></h2> 
+    </header><!-- .entry-header -->
+
+    <div class="entry-content">
+       <p class="md-end-block md-p md-focus"><span class="md-plain">常熟理工信息安全实验室成立于2009年，原名下一代互联网技术实验室，是一个致力于计算机网络安全技术和软件开发技术研究与发展的综合性实验团队，坐落于国家历史文化名城常熟。</span></p>
+<p class="md-end-block md-p"><span class="md-plain">研究方向包括但不限于 Android应用加固技术、二进制漏洞检测技术、Web安全检测技术、移动平台软件开发</span></p>
+    </div><!-- .entry-content -->
+
+</article>
+					
+												
+						<div class="paginations">
+												</div>
+						
+								
+			</div>
+			<!--/End of Blog Detail-->
+
+						
+		</div>	
+	</div>
+</section>
+<!-- End of Blog & Sidebar Section -->
+ 
+<div class="clearfix"></div>
+
+
+<!--======================================
+    Footer Section
+========================================-->
+
+<div class="clearfix"></div>
+
+<!--======================================
+    Footer Copyright
+========================================-->
+	<section id="specia-footer" class="footer-copyright">
+		<div class="container">
+			<div class="row padding-top-20 padding-bottom-10 ">
+				<div class="col-md-6 text-left">
+																<p class="copyright">您的版权文本</p>
+									</div>
+
+				<div class="col-md-6">
+										
+											<ul class="payment-icon">
+														
+															
+															
+														
+													</ul>
+									</div>
+			</div>
+		</div>
+	</section>
+<!--======================================
+    Top Scroller
+========================================-->
+<a href="#" class="top-scroll"><i class="fa fa-hand-o-up"></i></a> 
+</div>
+</div>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-content/themes/specia/js/skip-link-focus-fix.js?ver=20151215' id='skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='http://6.ldgnet.cslg.edu.cn/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+</body>
+</html>

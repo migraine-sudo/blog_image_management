@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="cleartype" content="on"/>
+    <meta content="no-cache" http-equiv="cache-control"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-title" content="Genius is patience"/>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width">
+    <title>Genius is patience</title>
+<meta name="keywords" content="墨墨,背,单词,词汇,英语,记忆,字典,雅思,新概念,小学,初中,高中,大学,四级,六级,专四,专八,考研,托福,GRE,GMAT,BEC,新东方,星火,红宝书"/>
+<meta name="description" content="墨墨背单词 - 高效抗遗忘，轻松规划海量词汇记忆。"/>
+<meta name="robots" content="index,follow"/>
+
+
+<link charset="UTF-8" rel="stylesheet" type="text/css" href="https://www.maimemo.com/res/style/site/default/css/share.min.css?v=87542" />
+    <script type="text/javascript" src="https://www.maimemo.com/voc_test/js/toolkit.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/js-xss/0.3.3/xss.min.js"></script>
+    <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.1.2/weui.min.css">
+    <script type="text/javascript" src="https://res.wx.qq.com/open/libs/weuijs/1.1.2/weui.min.js"></script>
+    <script src="https://cdn.bootcss.com/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.bootcss.com/moment.js/2.24.0/locale/zh-cn.js"></script>
+    <script type="text/javascript" src="https://www.maimemo.com/res/library/jquery/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="https://www.maimemo.com/res/library/original/statistics/baidu.statistics.min.js"></script>
+    <script type="text/javascript">
+        var apiRoot = 'https://api.maimemo.com/api/v1/',
+            oauth = null,
+            wxConfig = {"appId":"wxb1ad51701edc6373","timestamp":1587791415,"nonceStr":"82eahn4z1r96kxsdpbtyu7lwfiqog5c3","signature":"5856b965274c46f980a76b9c7ea9f6bdbdf93d54"};
+    </script>
+    <script charset="UTF-8" type="text/javascript" src="https://www.maimemo.com/res/style/site/default/js/share.min.js?v=87542">&#160;</script>
+</head>
+<body>
+
+<div class="container">
+    <!--	<div class="head">-->
+    <!--		<img src="-->
+    <!--" alt="" />-->
+    <!--		<div class="right">-->
+    <!--			<p>--><!--</p>-->
+    <!--			<p>学习天数：<span>--><!--</span>天</p>-->
+    <!--		</div>-->
+    <!--	</div>-->
+
+  <div class="sec1" style="margin: 0 -20px 20px; 100vw">
+    <img src="https://www.maimemo.com/res/style/site/default/css/images/share.png" alt="" style="display: none">
+    <a href="https://admin.maimemo.com/memo_book_v1/5b7d851140a05a1214c99485">
+      <img src="http://cdn.maimemo.com/share/book/book_promo_top.png" style="width: 100%; height: auto; margin: 0;" alt="">
+    </a>
+  </div>
+
+<!--    <div class="sec1">-->
+<!--        <img src="--><!--" alt="">-->
+<!--        <div class="right">-->
+<!--            <p>墨墨背单词</p>-->
+<!--            <p>高效抗遗忘, 轻松规划海量词汇记忆</p>-->
+<!--        </div>-->
+<!--        <a href="--><!--share/download/--><!--">-->
+<!--            <div class="download">-->
+<!--                <i class="icon-ziyuan"></i>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--                <img src="https://read.maimemo.com/static/img/logo2.png" alt="">-->
+<!--                <div class="right">-->
+<!--                    <p>墨墨阅读·开启我的英文书单</p>-->
+<!--                    <p>有机会获得学费返现50%</p>-->
+<!--                </div>-->
+<!--                <a href="https://read.maimemo.com/pages/reading/intro?view=true">-->
+<!--                    <div class="download"-->
+<!--                         style="width: auto; font-size: 14px; padding: 0 6px; line-height: 28px; background: #FF9900;box-shadow: rgba(255, 153, 0, 0.6) 0 1px 10px;">-->
+<!--                        了解更多-->
+<!--                    </div>-->
+<!--                </a>-->
+
+<!--    </div>-->
+            <img src="http://cdn.maimemo.com/share/e9b284215934799fcb27daa94e20f913.png?v=1587791415" alt="" class="cover">
+                <p class="content">耐心是一种智慧。</p>
+                <p class="ch">But patience is not the same as sitting around doing nothing.</p>
+        <div class="hr"></div>
+    <p class="desc">
+        已有 81 位朋友的阅读，增加了 54         个单词上限，总共节省了 0.86 元。<br>
+                （提示：增加的上限将在下次签到时奖励到账，墨墨学员之间相互点击不算阅读量，同一读者多次点击只算一次阅读量。）
+    </p>
+    <div class="sec3">
+        <div class="head">
+            <img src="http://cdn.maimemo.com/avatar/default.png" alt="墨墨学员_8070641"/>
+            <div class="right">
+                <p>墨墨学员_8070641</p>
+                <p>学习天数：<span>22</span>天</p>
+            </div>
+        </div>
+      <div class="actions">
+        <div class="like" onclick="Actions.like(this)">
+                <i class='iconfont'>&#xe607;</i>
+          <span>0</span>
+        </div>
+        <div class="dislike" onclick="Actions.dislike(this)">
+                <i class='iconfont'>&#xe606;</i>
+          <span>0</span>
+        </div>
+      </div>
+    </div>
+    <div class="hr2"></div>
+    <div class="cb">
+        <div class="top static">
+            评论（<span>0</span>）：
+            <span class="hideUnReviewedBtn" style="display: none;">显示待审核</span>
+            <span class="right">撰写评论</span>
+            <div></div>
+        </div>
+        <div class="cms" style=""></div>
+
+        <div class="empty" style="display: none">
+            <i class="icon iconfont">&#xe609;</i>
+          <p>写个沙发评论。</p>
+        </div>
+    </div>
+<!--    <div class="footer" style="display: none">-->
+<!--        <img src="--><!--res/images/site/logo_reading.jpeg" alt="">-->
+<!--        <div class="right">-->
+<!--            <p>第一期墨墨阅读开课啦！</p>-->
+<!--            <p>38天墨墨陪你读完2万字小说。</p>-->
+<!--        </div>-->
+<!--        <div class="download">-->
+<!--            <a href="--><!--share/download/--><!--">-->
+<!--            <a href="--><!--share/image">-->
+<!--                <p style="font-size: 14px; line-height: 44px;">点击关注</p>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--    </div>-->
+</div>
+<script language="text/template" id="temp-cmt">
+    <div class="cm" id="<%= id %>">
+        <img src="<%= creator.avatar ? filterXSS(creator.avatar.replace('https://', 'http://')) : 'http://www.maimemo.com/res/images/site/logo3.png' %>" />
+        <div class="ctn">
+            <p class="name"><%= filterXSS(creator.name || creator.username) %></p>
+            <p class="text"><%= filterXSS(content) %></p>
+            <p class="date"><%= created_time_fmt %> ・ <span onclick="<%= 'Actions.reply(event)' %>"><span><%= (replied_count || '') + ' 回复' %></span></span>
+                <% if (isAdmin || (oauth && creator.oauthid2 === oauth.oauthid)) { %>
+                <span style="display: inline-block; padding: 4px 4px 4px 12px;"
+                      onclick="Actions.deleteComment(this, '<%= id %>')">删除</span>
+                <% } %>
+            </p>
+            <div data-cid="<%= filterXSS(id) %>" class="like right <%= like.action === ' LIKE ' ? 'selected' : '' %>" onclick="Actions.likeComment(this)">
+                <i class="iconfont">&#xe60a;</i>
+                <span><%= filterXSS(like_user_count) || 0 %></span>
+            </div>
+
+            <div class="admin" style="display: <%= isAdmin ? '' : 'none' %>" data-cid2="<%= filterXSS(id) %>">
+                <div class="rev1" style="display: <%= status == 'UNREVIEWED' ? '' : 'none' %>"
+                     data-status="<%= status %>">
+                    待审核: <span onclick="<%= " Actions.setStatus(this, 'REVIEWED')"%>">通过</span><span onclick="<%= " Actions.setStatus(this,'REJECTED')"%>">拒绝</span>
+                    待审核: <span onclick="<%= " Actions.setStatus(this, 'REVIEWED')"%>">通过</span><span onclick="<%= " Actions.setStatus(this,'REJECTED')"%>">拒绝</span>
+                </div>
+                <div class="rev2" style="display: <%= status != 'UNREVIEWED' ? '' : 'none' %>"
+                     data-status="<%= status %>">
+                    <% if (status == 'REVIEWED') { %>
+                    已通过：<span onclick="<%= " Actions.setStatus(this, 'REJECTED')"%>">拒绝</span>
+                    <% } else { %>
+                    已拒绝：<span onclick="<%= " Actions.setStatus(this, 'REVIEWED')"%>">通过</span>
+                    <% } %>
+                </div>
+            </div>
+
+            <% if (replies.length > 0) { %>
+
+            <div class="replies">
+                <% for(var i = 0; i < replies.length; i++){ var reply = replies[i]; %>
+                <div class="reply <%= i<3? '': 'fold' %> <%= id %>" data-reply-id="<%= reply.id %>">
+                    <p><%= filterXSS(reply.creator.name || reply.creator.username) %>:</p>
+                    <p style="word-break:break-word"><%= filterXSS(reply.content) %></p>
+                    <p class="opts">
+                        <%= reply.created_time_fmt %> ・ <span onclick="<%= 'Actions.replyReply(event)'%>">回复</span>
+                      <% if (isAdmin || (oauth && reply.creator.oauthid2 === oauth.oauthid)) { %>
+                      <span onclick="<%= 'Actions.deleteReply(this)' %>">删除</span>
+                        <% } %>
+                        <% if (isAdmin && reply.status == 'REVIEWED') { %>
+                        <span onclick="<%= " Actions.setStatus(this, 'REJECTED', true)"%>" style="color: blue">屏蔽</span>
+                        <% } %>
+                        <% if (isAdmin && reply.status == 'REJECTED' || reply.status == 'UNREVIEWED') { %>
+                        <span onclick="<%= " Actions.setStatus(this, 'REVIEWED', true)"%>" style="color: green">显示</span>
+                        <% } %>
+                    </p>
+                    <div onclick="<%= 'Actions.likeReply(this)' %>"
+                         class="reply-like <%= reply.like && reply.like.action === 'LIKE' ? 'selected' : '' %>">
+                        <div>
+                            <i class="iconfont">&#xe60a;</i>
+                            <span><%= reply.like_user_count %></span>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+            </div>
+            <% } %>
+            <% if ( replies.length>3 ) { %>
+            <div class="foldOpenDiv">
+                <p onclick="<%= 'Actions.foldReply(this, true)' %>"  class="<%= id %> unfoldBtn">
+                    展开剩余<%= replies.length-3  %>条评论
+                    <span class="iconfont icon-zhankaitubiao"></span></p>
+                <p onclick="<%= 'Actions.foldReply(this, false)' %>" class=" <%= id %> foldBtn" style="display:none;">
+                    收起所有评论
+                    <span class="iconfont icon-shouqitubiao"></span></p>
+            </div>
+                <% } %>
+            </div>
+    </div>
+</script>
+
+<script language="text/template" id="temp-admin">
+    <div class="admin" style="display: <%= isAdmin ? '' : 'none' %>" data-cid2="<%= filterXSS(id) %>">
+        <div class="rev1" style="display: <%= status == 'UNREVIEWED' ? '' : 'none' %>"
+             data-status="<%= status %>">
+            待审核: <span onclick="<%= " Actions.setStatus(this, 'REVIEWED')"%>">通过</span><span onclick="<%= "
+                                                                                             Actions.setStatus(this,
+            'REJECTED')"%>">拒绝</span>
+        </div>
+        <div class="rev2" style="display: <%= status != 'UNREVIEWED' ? '' : 'none' %>"
+             data-status="<%= status %>">
+            <% if (status == 'REVIEWED') { %>
+            已通过：<span onclick="<%= " Actions.setStatus(this, 'REJECTED')"%>">拒绝</span>
+            <% } else { %>
+            已拒绝：<span onclick="<%= " Actions.setStatus(this, 'REVIEWED')"%>">通过</span>
+            <% } %>
+        </div>
+    </div>
+</script>
+
+<script language="text/template" id="temp-reply-admin">
+    <% if (isAdmin && status == 'REVIEWED' || status == 'UNREVIEWED') { %>
+    <span onclick="<%= " Actions.setStatus(this, 'REJECTED', true)"%>" style="color: blue">屏蔽</span>
+    <% } %>
+    <% if (isAdmin && status == 'REJECTED') { %>
+    <span onclick="<%= " Actions.setStatus(this, 'REVIEWED', true)"%>" style="color: green">显示</span>
+    <% } %>
+</script>
+
+<div class="popup hidden">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="dialog">
+            <p class="reply-name">回复: <span>蛋炒饭</span></p>
+            <textarea maxlength="140" id="reply-content"></textarea>
+            <div class="count">140</div>
+            <div class="opts">
+                <div class="cancel">取消</div>
+                <div class="send">发送</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="post" class="post" style="min-height: 36px;visibility:hidden">
+    <textarea id="content" rows='1' style=" -webkit-appearance: none;"></textarea>
+    <div id="countAndSend">
+        <div id="surplus" ></div>
+        <div id="send" class="send">发送</div>
+    </div>
+</div>
+
+<div class="scrollTip" style="width:100vw;height:40px;display:none;align-items:center;justify-content:center;border-top: 1px dashed #f2f2f2;text-align:center;font-size:12px;color:#8e8e8e">
+    <img src="https://www.maimemo.com/res/style/site/default/css/images/share_loading.gif"" style="width:16px;display:inline-block;margin-right:4px;"/>
+    <span style="display: inline-block;">正在加载</span>
+</div>
+
+</body>
+</html>
